@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://dev-as-server-gsam8z5rf-aabid2947s-projects.vercel.app/'; // Corrected API URL
+const API_URL = 'https://dev-as-server-b4okb1vux-aabid2947s-projects.vercel.app/api'; // Corrected API URL
 
 const api = axios.create({
   baseURL: API_URL,

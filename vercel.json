@@ -1,7 +1,8 @@
 {
     "rewrites": [
       {
-        "destination": "https://dev-as-server-gsam8z5rf-aabid2947s-projects.vercel.app/api/:path*"
+        "source": "/(.*)",
+        "destination": "/index.html"
       }
     ]
   }
