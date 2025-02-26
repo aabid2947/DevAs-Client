@@ -3,9 +3,7 @@ import { QueryClient, QueryClientProvider } from 'react-query';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
 import Login from './components/Login';
 import Register from './components/Register';
-import Navbar from './components/Navbar';
 import MainHome from './components/MainHome'
-import Sidebar from './components/Sidebar';
 
 const queryClient = new QueryClient();
 
